@@ -14,8 +14,11 @@ INSTALAÇÃO
  Passos
 
 git clone https://github.com/joaomferraz/MedidorProgresso.git
+
 cd medidor_progresso_flutter
+
 flutter pub get
+
 flutter run
 
  Estrutura do Projeto
