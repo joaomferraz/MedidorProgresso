@@ -1,16 +1,52 @@
 # atividademedidor
 
-A new Flutter project.
+ Medidor de Progresso Circular
 
-## Getting Started
+Objetivo
+Este projeto Flutter implementa um medidor de progresso circular customizado com animação, utilizando `CustomPainter` e `AnimationController`. O usuário insere uma porcentagem e visualiza o progresso animado até o valor informado.
 
-This project is a starting point for a Flutter application.
+Instalação
 
-A few resources to get you started if this is your first Flutter project:
+ Requisitos
+- Flutter 3.10 ou superior
+- Dart SDK
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ Passos
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+git clone https://github.com/joaomferraz/MedidorProgresso.git
+cd medidor_progresso_flutter
+flutter pub get
+flutter run
+
+ Estrutura do Projeto
+
+[estrutura_projeto](screenshots/estrutura.png)
+
+Capturas de Tela
+
+40% de Progresso
+[40%](screenshots/40p.jpg)
+
+ 75% de Progresso
+[75%](screenshots/75p.jpg)
+
+ Dependências
+Apenas o SDK do Flutter:
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+ Uso
+O aplicativo inicia com uma tela onde o usuário:
+1. Digita um valor percentual (0 a 100);
+2. Pressiona "Iniciar";
+3. Visualiza a animação circular exibindo o progresso até o valor inserido.
+
+ Observações
+
+- Os dados são validados para garantir entrada entre 0 e 100;
+- A lógica de UI e animação está separada em arquivos específicos para manter organização e modularidade.
+
+
