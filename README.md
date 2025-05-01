@@ -1,11 +1,11 @@
-# atividademedidor
+# atividadeMedidor
 
  Medidor de Progresso Circular
 
 Objetivo
 Este projeto Flutter implementa um medidor de progresso circular customizado com animação, utilizando `CustomPainter` e `AnimationController`. O usuário insere uma porcentagem e visualiza o progresso animado até o valor informado.
 
-Instalação
+INSTALAÇÃO
 
  Requisitos
 - Flutter 3.10 ou superior
